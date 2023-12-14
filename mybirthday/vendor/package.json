@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+
+  "scripts": {
+    "sass": "sass --no-source-map ../static/scss/style.scss ../static/css/style.css",
+    "sass-min": "sass --no-source-map --style compressed ../static/scss/style.scss ../static/css/style.min.css",
+    "sass-watch": "sass --no-source-map --watch ../static/scss/style.scss ../static/css/style.css",
+    "sass-min-watch": "sass --no-source-map --style compressed --watch ../static/scss/style.scss ../static/css/style.min.css"
+  }
+}
